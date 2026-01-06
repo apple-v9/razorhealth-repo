@@ -1,0 +1,35 @@
+# Treat all text files as text and normalize line endings
+* text=auto
+
+# Force UTF-8 encoding
+* text=auto eol=lf
+*.java text
+*.xml text
+*.properties text
+*.yml text
+*.yaml text
+*.gradle text
+*.md text
+*.txt text
+
+# Binary files (don't try to modify line endings or diff)
+*.jar binary
+*.war binary
+*.ear binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.class binary
+*.pdf binary
+*.zip binary
+*.tar.gz binary
+*.exe binary
+
+# Shell scripts should keep LF endings
+*.sh text eol=lf
+*.bat text eol=crlf
+
+# Ensure Maven wrapper jar is treated as binary
+.mvn/wrapper/maven-wrapper.jar binary

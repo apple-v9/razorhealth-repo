@@ -1,0 +1,61 @@
+# ======================
+# Maven build directories
+# ======================
+# Ignore all target folders anywhere in the repo
+**/target/
+/razorhealth/target/
+razorhealth/razorhealth-api/target/
+build/
+out/
+
+# ======================
+# Maven wrapper
+# Keep the wrapper scripts, ignore the jar
+.mvn/wrapper/maven-wrapper.jar
+
+# ======================
+# IntelliJ IDEA
+# ======================
+.idea/
+*.iml
+*.ipr
+*.iws
+out/
+
+# ======================
+# Eclipse / STS
+# ======================
+.classpath
+.factorypath
+.project
+.settings/
+.springBeans
+.sts4-cache/
+
+# ======================
+# VS Code
+# ======================
+.vscode/
+
+# ======================
+# OS Generated Files
+# ======================
+.DS_Store
+Thumbs.db
+*~
+
+# ======================
+# Logs and temporary files
+# ======================
+*.log
+*.tmp
+*.bak
+*.swp
+
+# ======================
+# Optional sensitive / environment files
+# ======================
+# application.properties
+# application.yml
+# .env
+
